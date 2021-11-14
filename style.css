@@ -1,0 +1,129 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color:whitesmoke;
+}
+
+.header{
+    width: 100%;
+    background-position: center;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 0 0 6px lightgray;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 10px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.biodata{
+    background-color: white;
+    width: 95%;
+    margin:20px auto;
+    display: flex;
+}
+.biodata-col{
+    padding: 20px;
+    flex:2;
+}
+.biodata-col h1{
+    padding-bottom: 10px;
+}
+.biodata-col p{
+    font-size: small;
+}
+.biodata-btn{
+    flex:1;
+    padding-top: 40px;
+    padding-bottom: 20px;
+} 
+.biodata-btn input[type=submit]{
+    height: 40px;
+    width: 80px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#btn_kontak{
+    background-color: blue;
+    color: white;
+    border: 1px solid darkblue;
+    box-shadow: 0 1px 1px 1px lightblue;
+}
+#btn_resume{
+    background-color: white;
+    color: green;
+    border: 1px solid darkgreen;
+}
+.biodata img{
+    width: 150px;
+    vertical-align: baseline;
+    padding:20px;
+}
+.vl{
+    border-left: 1px solid black;
+}
+.biodata-row{
+    display: flex;
+    padding-bottom: 20px;
+}
+.biodata-row h5{
+    flex: 1;
+}
+.biodata-row p{
+    flex: 2;
+}
+.inputan{
+    background-color: white;
+    width: 95%;
+    margin:20px auto;
+}
+.inputan-col{
+    display: grid;
+    padding-bottom: 10px;
+}
+.inputan-col label{
+    font-weight:bold;
+}
+input[type=text]{
+    width: 100%;
+    box-sizing: border-box;
+    padding:5px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+#btn_submit{
+    font-weight: bolder;
+    color: white;
+    font-size: medium;
+    background-color: darkgreen;
+    width: 100%;
+    border-radius: 4px;
+    border:1px solid #ccc;
+    cursor: pointer;
+    height: 50px;
+}
+
+nav .fa{
+    display: none;
+}
